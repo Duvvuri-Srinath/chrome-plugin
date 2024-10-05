@@ -3,6 +3,11 @@
 ## Overview
 This Chrome plugin extracts product information (name, price, image) from e-commerce fashion websites like H&M. It also integrates with an open API to provide similar product suggestions.
 
+## Demo Image
+![image](https://github.com/user-attachments/assets/c9eab541-f7a0-490c-9d51-b14bb03cab24)
+![image](https://github.com/user-attachments/assets/5c912542-4721-414e-be7a-f8b4352dbf17)
+![image](https://github.com/user-attachments/assets/7d3f5fd9-907b-4a67-80b6-d16d7e095b18)
+
 ## Installation
 1. Clone or download this repository.
 2. Open Chrome and navigate to `chrome://extensions/`.
