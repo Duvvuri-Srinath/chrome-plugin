@@ -5,7 +5,7 @@ This Chrome plugin extracts product information (name, price, image) from e-comm
 
 ## Demo Image
 ![image](https://github.com/user-attachments/assets/c9eab541-f7a0-490c-9d51-b14bb03cab24)
-![image](https://github.com/user-attachments/assets/5c912542-4721-414e-be7a-f8b4352dbf17)
+![image](https://github.com/user-attachments/assets/40d8b83b-b010-4735-b6ee-bb6fba1ce8f1)
 ![image](https://github.com/user-attachments/assets/32fa19f0-d87f-422c-ae9a-160d8c087f24)
 
 ## Installation
