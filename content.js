@@ -1,8 +1,8 @@
 (() => {
   const getProductDetails = () => {
-    let productName = document.querySelector('#js-product-name > div > h1'); // Updated selector for product name
-    let productPrice = document.querySelector('#product-price > div > div > span'); // Updated selector for product price
-    let productImage = document.querySelector('.product-detail-main-image-container img'); // Updated selector for product image
+    let productName = document.querySelector('#js-product-name > div > h1');
+    let productPrice = document.querySelector('#product-price > div > div > span'); 
+    let productImage = document.querySelector('.product-detail-main-image-container img'); 
 
     return {
       name: productName ? productName.innerText : 'N/A',

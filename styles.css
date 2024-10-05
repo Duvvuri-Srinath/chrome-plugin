@@ -1,11 +1,114 @@
 body {
-  font-family: Arial, sans-serif;
-  width: 300px;
+  font-family: 'Roboto', sans-serif;
+  width: 300px; /* Compact width */
   padding: 10px;
+  background: #f4f4f4;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
+
 #product-info {
   text-align: center;
+  padding: 0;
+  margin-bottom: 20px;
 }
+
+#product-name {
+  font-weight: bold;
+  color: #222;
+  margin-bottom: 8px;
+  font-size: 16px;
+}
+
+#product-price {
+  font-weight: bold;
+  color: #e74c3c;
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
 #product-image {
-  margin-top: 10px;
+  display: block;
+  margin: 0 auto;
+  width: 140px;
+  height: auto;
+  border-radius: 8px;
+  border: 2px solid #ddd;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
+}
+
+#product-image:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+#similar-products {
+  margin-top: 20px;
+  text-align: center; /* Center-align the "Similar Products" heading */
+}
+
+#similar-products-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.similar-product {
+  background: #ffffff;
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 8px;
+  width: 90%;
+  max-width: 250px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.similar-product:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.similar-product img {
+  width: 60px;
+  height: auto;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+  margin-bottom: 8px;
+}
+
+/* Styling the text inside similar product cards */
+.similar-product-name {
+  font-weight: bold;
+  color: #2c3e50; /* Darker color for product name */
+  margin-top: 8px;
+  font-size: 15px; /* Adjusted font size */
+}
+
+.similar-product-price {
+  font-weight: bold;
+  color: #e74c3c; /* Bright red color for price */
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+h2, h3 {
+  color: #2c3e50;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+  font-size: 18px;
+  text-align: center; /* Center-align headings */
+}
+
+h3 {
+  font-size: 16px; /* Adjusted font size for the "Similar Products" heading */
+}
+
+/* Adding a smooth transition to the body for a cleaner feel */
+body * {
+  transition: all 0.3s ease;
 }
